@@ -28,6 +28,11 @@ abline(simp)
 summary.lm(simp)
 ```
 
+NECK as a variable for determining a bears LENGTH and adjusted R square score of 0.7476
+
+The scatter plot shows that as NECK size goes up, LENG%H does as well , thus
+NECK size is a good predictor to determine LENGTH.
+
 ## now predict the length of a bear who has a neck of 17, 22 and 26
 
 
