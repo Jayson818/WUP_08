@@ -9,6 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Introduction
+
+We are  trying to find a  a variable that is a better  predictor of the LENGTH of a bear than is a NECK size.
+
 ## make a simple regression model
 
 ```{r}
