@@ -51,3 +51,23 @@ cor(bears$LENGTH,bears$NECK)
 
 ## Surely there is another variable that can better predict LENGTH than NECK. Find one and compare its performance to that of neck by it value of Adjusted-Rsquared (bigger is better).
 
+```{r}
+simp <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+CHEST is a variable for determining a bears LENGTH had an adjustex R squared score of 0.7869.
+
+The scatter plot shows that as CHEST size goes up, LENGTH does as well. Thus CHEST size is a good predictor to determine the LENGTH of the bear.
+
+## Numerical Summary
+
+
+```{r}
+cor(bears$LENGTH,bears$CHEST)
+```
+
+The correlation is coefficient
+
